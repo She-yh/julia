@@ -1,0 +1,29 @@
+.introContainer{
+    right: 100px;
+    user-select: none;
+    width: 290px;
+    text-align: right;
+}
+.introTitle{
+    margin-bottom: 20px;
+    font-size: 72px;
+    font-weight: lighter;
+}
+.intro{
+    font-size: 20px;
+    color: rgba(255,255,255,0.75);
+    font-weight: lighter;
+}
+@media screen and (max-width: 576px){
+    .introTitle{
+        margin-bottom: 20px;
+        font-size: 52px;
+        font-weight: lighter;
+    }
+    .intro{
+         font-size: 15px;
+         color: rgba(255,255,255,0.75);
+         font-weight: lighter;
+     }
+
+}

@@ -1,0 +1,58 @@
+#setsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: -5px;
+    background-color: rgba(80, 80, 80, 0.5);
+    border-radius: 5px;
+    height: 300px;
+    padding: 20px;
+
+}
+.setsTitle{
+    margin-bottom: 10px;
+}
+@font-face {
+    font-family: 'fontello';
+    src: url("./fontello-6136b7f9/font/fontello.eot"),
+    url('./fontello-6136b7f9/font/fontello.woff') format('woff'),
+    url('./fontello-6136b7f9/font/fontello.ttf') format('truetype'),
+    url('./fontello-6136b7f9/font/fontello.svg#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.demo-icon{
+    font-family: 'fontello';
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width: 576px){
+    #setsContainer{
+        height: auto;
+        width: 280px;
+        margin: -5px 0 0 0;
+        padding: 5px 0 10px 0;
+    }
+    .setsTitle{
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .demo-icon{
+        font-size: 18px;
+    }
+}
+
+
+#auto{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+}
+#auto:hover{
+    background-color: rgba(255,255,255,0.2);
+}

@@ -1,24 +1,3 @@
-# julia
+# julia分形
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+在学习stm32时接触到了这个算法，现用Canvas重写，对于其中数学部分并不太理解，如有兴趣者，欢迎交流
